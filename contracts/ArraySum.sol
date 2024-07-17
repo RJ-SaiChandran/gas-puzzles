@@ -20,4 +20,8 @@ contract ArraySum {
 
         return sum;
     }
+
+    function getArrayLength() public view returns (uint256) {
+        return array.lenth;
+    }
 }
